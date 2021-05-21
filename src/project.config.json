@@ -1,6 +1,8 @@
 {
-  "miniprogramRoot": "dist/miniprogram/",
-  "cloudfunctionRoot": "dist/cloudfunctions/",
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
   "setting": {
     "urlCheck": true,
     "es6": true,
@@ -37,11 +39,19 @@
     "packNpmRelationList": [],
     "minifyWXSS": true
   },
+  "compileType": "miniprogram",
+  "libVersion": "2.17.0",
   "appid": "wxfb9f6909d1aaeeea",
-  "projectname": "%E4%BA%91%E5%BC%80%E5%8F%91%E7%A4%BA%E4%BE%8B%E7%AE%80%E6%98%93%E5%95%86%E5%9F%8E",
-  "libVersion": "2.8.1",
-  "simulatorType": "wechat",
-  "simulatorPluginLibVersion": {},
+  "projectname": "miniprogram-1",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "staticServerOptions": {
+    "baseURL": "",
+    "servePath": ""
+  },
+  "isGameTourist": false,
   "condition": {
     "search": {
       "list": []
@@ -49,20 +59,17 @@
     "conversation": {
       "list": []
     },
-    "plugin": {
-      "list": []
-    },
     "game": {
       "list": []
     },
+    "plugin": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
     "miniprogram": {
-      "list": [
-        {
-          "id": -1,
-          "name": "db guide",
-          "pathName": "pages/databaseGuide/databaseGuide"
-        }
-      ]
+      "list": []
     }
   }
 }

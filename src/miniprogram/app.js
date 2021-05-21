@@ -1,3 +1,6 @@
+// const _ = require('lodash')
+const add = require('lodash/add')
+
 App({
   /**
    * 全局信息
@@ -44,6 +47,7 @@ App({
    * APP加载时运行回调
    */
   onLaunch: function () {
+    console.log(add(3,4))
     if (!wx.cloud) {
       console.error('请使用 2.2.3 或以上的基础库以使用云能力')
     } else {
